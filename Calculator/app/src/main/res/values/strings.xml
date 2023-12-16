@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="num1">Enter frist number:</string>
+    <string name="num2">Enter second number:</string>
+    <string name="add">Add</string>
+    <string name="sub">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="clr">Clear</string>
+    <string name="res">Result</string>
+</resources>

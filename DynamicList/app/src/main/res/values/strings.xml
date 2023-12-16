@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dynamic List</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="clear">Clear</string>
+    <string name="add_new">Item:</string>
+</resources>

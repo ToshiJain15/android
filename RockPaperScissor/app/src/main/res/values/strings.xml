@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RockPaperScissor</string>
+    <string name="input">Enter name:</string>
+    <string name="choice">Select Choice:</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissor">Scissor</string>
+    <string name="gen">Generate</string>
+    <string name="play">Played</string>
+    <string name="res">Result</string>
+    <string name="clr">Clear</string>
+</resources>

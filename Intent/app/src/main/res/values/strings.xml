@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="login">LogIn</string>
+    <string name="uname">Username</string>
+    <string name="passwd">Password</string>
+    <string name="wlcm">Welcome</string>
+</resources>

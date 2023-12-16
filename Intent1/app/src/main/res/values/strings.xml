@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent1</string>
+    <string name="ok">OK</string>
+    <string name="link">http://www.google.com</string>
+</resources>
