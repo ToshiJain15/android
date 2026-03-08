@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android Development Portfolio | Toshit Jain</title>
+    <meta name="description"
+        content="Android app portfolio by Toshit Jain – Calculator, Rock Paper Scissor, Dynamic List, and more.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +38,7 @@
             <div class="hero-content">
                 <span class="badge">Android Developer</span>
                 <h1>Crafting Seamless <span>Mobile Experiences</span></h1>
-                <p>A showcase of Android applications range from utility tools like calculators to interactive games and
+                <p>A showcase of Android applications — from utility tools like calculators to interactive games and
                     dynamic list implementations.</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn primary">Explore Projects</a>
@@ -49,148 +51,179 @@
     <main id="projects" class="container">
         <div class="section-title">
             <h2>My <span>Projects</span></h2>
-            <p>Explore my collection of Android applications, built with Kotlin and Java.</p>
+            <p>Explore my Android applications — tap any card to view the full source code on GitHub.</p>
         </div>
 
         <div class="project-grid">
+
             <!-- Calculator -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                <div class="card-preview">
+                    <img src="calculator.png" alt="Calculator App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/Calculator" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
                 <div class="card-content">
-                    <h3>Calculator App</h3>
-                    <p>A feature-rich calculator with basic arithmetic operations and a clean user interface.</p>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                        <h3>Calculator App</h3>
+                    </div>
+                    <p>A feature-rich calculator with basic arithmetic operations — Add, Subtract, Multiply, and Divide
+                        — with input validation.</p>
                     <div class="project-tags">
                         <span>Java</span>
                         <span>XML</span>
                         <span>ConstraintLayout</span>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/Calculator" class="link">View Source
-                            <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
 
             <!-- Rock Paper Scissor -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-hand-rock"></i></div>
+                <div class="card-preview">
+                    <img src="rps.png" alt="Rock Paper Scissor App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/RockPaperScissor" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
                 <div class="card-content">
-                    <h3>Rock Paper Scissor</h3>
-                    <p>An interactive game implementation featuring logic to handle player vs computer interactions.</p>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-hand-rock"></i></div>
+                        <h3>Rock Paper Scissor</h3>
+                    </div>
+                    <p>An interactive game — choose Rock, Paper, or Scissor to play against the computer with real-time
+                        score tracking.</p>
                     <div class="project-tags">
                         <span>Game Logic</span>
                         <span>State Management</span>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/RockPaperScissor" class="link">View
-                            Source <i class="fas fa-arrow-right"></i></a>
+                        <span>Randomization</span>
                     </div>
                 </div>
             </div>
 
             <!-- Dynamic List -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-list-ul"></i></div>
+                <div class="card-preview">
+                    <img src="dynamiclist.png" alt="Dynamic List App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/DynamicList" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
                 <div class="card-content">
-                    <h3>Dynamic List</h3>
-                    <p>Implementation of dynamic lists using RecyclerView for efficient data display and management.</p>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-list-ul"></i></div>
+                        <h3>Dynamic List</h3>
+                    </div>
+                    <p>Efficient scrollable lists using RecyclerView — demonstrates the power of the adapter pattern for
+                        rendering dynamic data.</p>
                     <div class="project-tags">
                         <span>RecyclerView</span>
                         <span>Adapter Pattern</span>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/DynamicList" class="link">View Source
-                            <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
 
             <!-- Spinner -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-caret-square-down"></i></div>
+                <div class="card-preview">
+                    <img src="spinner.png" alt="Spinner App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/Spinner" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
                 <div class="card-content">
-                    <h3>Spinner Components</h3>
-                    <p>Demonstration of drop-down selection menus and customized spinner implementations.</p>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-caret-square-down"></i></div>
+                        <h3>Spinner Components</h3>
+                    </div>
+                    <p>Demonstration of drop-down selection menus using Android's Spinner widget with custom data
+                        adapters.</p>
                     <div class="project-tags">
                         <span>UI Components</span>
-                        <span>Attributes</span>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/Spinner" class="link">View Source <i
-                                class="fas fa-arrow-right"></i></a>
+                        <span>ArrayAdapter</span>
                     </div>
                 </div>
             </div>
 
             <!-- Intents -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="card-preview">
+                    <img src="intent.png" alt="Intent Navigation App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/Intent" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
                 <div class="card-content">
-                    <h3>Intent Navigation</h3>
-                    <p>Exploring activity lifecycle and inter-activity communication using Android Intents.</p>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <h3>Intent Navigation</h3>
+                    </div>
+                    <p>Exploring activity lifecycle and inter-activity communication — passing data between screens
+                        using Android Intents.</p>
                     <div class="project-tags">
                         <span>Intents</span>
                         <span>Activity Lifecycle</span>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/Intent" class="link">View Source <i
-                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
 
             <!-- adapter -->
             <div class="project-card">
-                <div class="card-icon"><i class="fas fa-th-list"></i></div>
-                <div class="card-content">
-                    <h3>Custom Adapters</h3>
-                    <p>Building specialized adapters for complex data structures in list-based views.</p>
-                    <div class="project-tags">
-                        <span>Custom UI</span>
-                        <span>Data Binding</span>
+                <div class="card-preview">
+                    <img src="adapter.png" alt="Custom Adapter App Preview" loading="lazy">
+                    <div class="preview-overlay">
+                        <a href="https://github.com/ToshiJain15/android/tree/main/adapter" target="_blank"
+                            class="overlay-btn"><i class="fab fa-github"></i> View Source</a>
                     </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ToshiJain15/android/tree/main/adapter" class="link">View Source <i
-                                class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-th-list"></i></div>
+                        <h3>Custom Adapters</h3>
+                    </div>
+                    <p>Building specialized adapters for complex list views — custom row layouts with images, titles,
+                        and descriptions.</p>
+                    <div class="project-tags">
+                        <span>Custom Adapter</span>
+                        <span>ListView</span>
+                        <span>Data Binding</span>
                     </div>
                 </div>
             </div>
+
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Toshit Jain. Dedicated to Building Better Mobile Apps.</p>
+            <p>&copy; 2025 Toshit Jain &mdash; Building Better Mobile Apps.</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/ToshiJain15" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </footer>
 
     <script>
-        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
             });
         });
 
-        // Intersection Observer for animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
+                if (entry.isIntersecting) entry.target.classList.add('visible');
             });
         }, { threshold: 0.1 });
 
-        document.querySelectorAll('.project-card').forEach(card => {
-            observer.observe(card);
-        });
+        document.querySelectorAll('.project-card').forEach(card => observer.observe(card));
     </script>
 </body>
 
